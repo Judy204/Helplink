@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My requests - HelpLink</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1 class="logo">HelpLink</h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="signup.html">Sign up</a></li>
+        <li><a href="signin.html">Sign in</a></li>
+        <li><a href="new-request.html">New request</a></li>
+        <li><a href="helpers.html">Find helpers</a></li>
+        <li><a href="my-requests.html" class="active">My requests</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- my requests and tracking -->
+    <section id="my-requests" class="section">
+      <h2>My requests</h2>
+
+      <div class="two-columns">
+        <article class="request-box">
+          <h3>Kitchen water leak</h3>
+          <p class="urgent-tag">Urgent</p>
+          <p>Helper: Omar Khoury</p>
+          <ol class="steps">
+            <li class="done">Open</li>
+            <li class="done">Accepted</li>
+            <li class="current">In progress</li>
+            <li>Completed</li>
+          </ol>
+        </article>
+
+        <article class="request-box">
+          <h3>Improve my CV</h3>
+          <p>Helper: Rana Salem</p>
+          <ol class="steps">
+            <li class="done">Open</li>
+            <li class="done">Accepted</li>
+            <li class="done">In progress</li>
+            <li class="done">Completed</li>
+          </ol>
+          <form action="#" method="post">
+            <label for="stars">Rate the helper</label>
+            <select id="stars" name="stars">
+              <option>5</option>
+              <option>4</option>
+              <option>3</option>
+              <option>2</option>
+              <option>1</option>
+            </select>
+            <label for="comment">Comment</label>
+            <textarea id="comment" name="comment" rows="2"></textarea>
+            <button type="submit" class="btn">Send rating</button>
+          </form>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  
+
+</body>
+</html>

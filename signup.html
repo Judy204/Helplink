@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up - HelpLink</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1 class="logo">HelpLink</h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="signup.html" class="active">Sign up</a></li>
+        <li><a href="signin.html">Sign in</a></li>
+        <li><a href="new-request.html">New request</a></li>
+        <li><a href="helpers.html">Find helpers</a></li>
+        <li><a href="my-requests.html">My requests</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- sign up -->
+    <section id="sign-up" class="section narrow">
+      <h2>Create your account</h2>
+
+      <form class="form-box" action="#" method="post">
+        <fieldset>
+          <legend>Sign up</legend>
+          <label for="first-name">First name</label>
+          <input type="text" id="first-name" name="first-name" placeholder="Sara" required>
+
+          <label for="last-name">Last name</label>
+          <input type="text" id="last-name" name="last-name" placeholder="Haddad" required>
+
+          <label for="email-up">Email</label>
+          <input type="email" id="email-up" name="email" placeholder="sara@email.com" required>
+
+          <label for="password-up">Password</label>
+          <input type="password" id="password-up" name="password" minlength="8" required>
+
+          <label for="confirm">Confirm password</label>
+          <input type="password" id="confirm" name="confirm" minlength="8" required>
+
+          <p class="label-text">I want to:</p>
+          <label class="inline"><input type="checkbox" name="role" value="requester" checked> Request help</label>
+          <label class="inline"><input type="checkbox" name="role" value="helper"> Offer help</label>
+
+          <button type="submit" class="btn">Sign up</button>
+        </fieldset>
+      </form>
+
+      <p class="switch-link">Already have an account? <a href="signin.html">Sign in</a></p>
+    </section>
+
+  </main>
+
+  
+
+</body>
+</html>

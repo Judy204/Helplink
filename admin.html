@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - HelpLink</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1 class="logo">HelpLink</h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="signup.html">Sign up</a></li>
+        <li><a href="signin.html">Sign in</a></li>
+        <li><a href="new-request.html">New request</a></li>
+        <li><a href="helpers.html">Find helpers</a></li>
+        <li><a href="my-requests.html">My requests</a></li>
+        <li><a href="admin.html" class="active">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- admin area -->
+    <section id="admin" class="section">
+      <h2>Administrator dashboard</h2>
+
+      <div class="counters">
+        <div class="counter"><strong>240</strong><span>Users</span></div>
+        <div class="counter"><strong>86</strong><span>Requests</span></div>
+        <div class="counter"><strong>4</strong><span>Urgent</span></div>
+        <div class="counter"><strong>3</strong><span>Reports</span></div>
+      </div>
+
+      <div class="table-wrapper">
+        <table>
+          <caption>Reported users</caption>
+          <thead>
+            <tr>
+              <th>User</th>
+              <th>Reports</th>
+              <th>Reason</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ali</td>
+              <td>3</td>
+              <td>Abusive reviews</td>
+              <td><a href="#" class="btn btn-small">Suspend</a></td>
+            </tr>
+            <tr>
+              <td>Maya</td>
+              <td>1</td>
+              <td>Fake profile</td>
+              <td><a href="#" class="btn btn-small">Suspend</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+
+</body>
+</html>

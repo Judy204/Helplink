@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find helpers - HelpLink</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1 class="logo">HelpLink</h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="signup.html">Sign up</a></li>
+        <li><a href="signin.html">Sign in</a></li>
+        <li><a href="new-request.html">New request</a></li>
+        <li><a href="helpers.html" class="active">Find helpers</a></li>
+        <li><a href="my-requests.html">My requests</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="helpers" class="section">
+      <h2>Find helpers</h2>
+
+      <form class="search-bar" action="#" method="get">
+        <label for="search" class="hidden">Search</label>
+        <input type="search" id="search" name="search" placeholder="Search by skill, for example plumbing">
+        <select name="availability" aria-label="Availability">
+          <option>All</option>
+          <option>Available</option>
+          <option>Busy</option>
+        </select>
+        <button type="submit" class="btn">Search</button>
+      </form>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Omar Khoury</h3>
+          <p class="skill">Plumber</p>
+          <p>Rating: 4.9 / 5 (31 helps)</p>
+          <p class="status available">Available</p>
+          <a href="#" class="btn">Select</a>
+        </article>
+
+        <article class="card">
+          <h3>Hadi Nasser</h3>
+          <p class="skill">Technician</p>
+          <p>Rating: 4.5 / 5 (8 helps)</p>
+          <p class="status busy">Busy</p>
+          <a href="#" class="btn">Select</a>
+        </article>
+
+        <article class="card">
+          <h3>Rana Salem</h3>
+          <p class="skill">Graphic designer</p>
+          <p>Rating: 4.7 / 5 (12 helps)</p>
+          <p class="status available">Available</p>
+          <a href="#" class="btn">Select</a>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+
+</body>
+</html>

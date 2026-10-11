@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign in - HelpLink</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1 class="logo">HelpLink</h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="signup.html">Sign up</a></li>
+        <li><a href="signin.html" class="active">Sign in</a></li>
+        <li><a href="new-request.html">New request</a></li>
+        <li><a href="helpers.html">Find helpers</a></li>
+        <li><a href="my-requests.html">My requests</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- sign in -->
+    <section id="sign-in" class="section narrow">
+      <h2>Welcome back</h2>
+
+      <form class="form-box" action="#" method="post">
+        <fieldset>
+          <legend>Sign in</legend>
+          <label for="email-in">Email</label>
+          <input type="email" id="email-in" name="email" required>
+
+          <label for="password-in">Password</label>
+          <input type="password" id="password-in" name="password" required>
+
+          <label class="inline"><input type="checkbox" name="keep"> Keep me signed in</label>
+
+          <button type="submit" class="btn">Sign in</button>
+          <p><a href="#">Forgot password?</a></p>
+        </fieldset>
+      </form>
+
+      <p class="switch-link">New to HelpLink? <a href="signup.html">Create an account</a></p>
+    </section>
+
+  </main>
+
+
+</body>
+</html>
